@@ -10,7 +10,7 @@ function Accueil() {
           <div id="texte">
            <h4 id="hello">Hello je suis Joyce Tcheumeni,</h4>
            <p id="developpeuse">Dévéloppeuse Front-End</p>
-           <p>Je concois et developpe des interfaces web modernes,responsives et accessibles aux besoins des utlisateurs</p>
+           <p>Je concois et développe des interfaces web modernes,responsives et accessibles aux besoins des utilisateurs</p>
         
            <button id="appeler"><a href="tel:+237692074424">Me contacter</a></button>
            <div id="accessibilite">
