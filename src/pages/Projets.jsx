@@ -43,8 +43,6 @@ const projets=[
             statut:"En cours",
             points:["Authentification ,sidebar,cartes de statistiques et graphiques, avec animation","Design mobile first"," Backend en cours "],
             techs:["React","Tailwind Css","Recharts","Node js","PostgreSQL"],
-            github:"http://github.com/Joyce-dot457/to-do-list app",
-            projet:"https://to-do-list-app-lemon-mu.vercel.app/"
         },
         {
             titre:"SHOP APP",
@@ -53,8 +51,8 @@ const projets=[
             statut:"Terminé",
             points:["Ajout ,retrait et quantité des produits,avec gestion des ruptures de stock","État global avec Zustand,animations","Recherche et filtre de disponibilité,panier mobile en «bottom sheet»"],
             techs:["React","Tailwind-css","Zustand"],
-            github:"http://github.com/joyce-dot457/to-do-list app",
-            projet:"https://to-do-list-app-lemon-mu.vercel.app/"
+            github:"http://github.com/Joyce-dot457/Boutique-agro-alimentaires",
+            projet:"https://boutique-de-produits.vercel.app/"
         }
     ]
 function ProjetCarte({p,index}) {

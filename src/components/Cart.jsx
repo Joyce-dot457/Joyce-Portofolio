@@ -16,7 +16,7 @@ function Cart() {
       return () => clearTimeout(affiche);
     }
     if (!effacePhrase && texteAffiché.length === phraseActuelle.length) {
-        const affiche =setTimeout(() =>{setEffacePhrase(true)}, 1500);
+        const affiche =setTimeout(() =>{setEffacePhrase(true)}, 1000);
       return () => clearTimeout(affiche);
     }
     if (effacePhrase && texteAffiché.length > 0) {
