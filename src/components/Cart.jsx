@@ -16,11 +16,11 @@ function Cart() {
       return () => clearTimeout(affiche);
     }
     if (!effacePhrase && texteAffiché.length === phraseActuelle.length) {
-        const affiche =setTimeout(() =>{setEffacePhrase(true)}, 1000);
+        const affiche =setTimeout(() =>{setEffacePhrase(true)}, 1800);
       return () => clearTimeout(affiche);
     }
     if (effacePhrase && texteAffiché.length > 0) {
-        const affiche =setTimeout(() =>{setTexteAffiché(texteAffiché.slice(0, -1))}, 50);
+        const affiche =setTimeout(() =>{setTexteAffiché(texteAffiché.slice(0, -1))}, 100);
       return () => clearTimeout(affiche);
     }
     if (effacePhrase && texteAffiché.length === 0) {
